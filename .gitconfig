@@ -1,0 +1,27 @@
+[user]
+	name = Naiza Asaad
+	email = naizaoasaad@gmail.com
+
+[github]
+	user = naiza-asaad
+
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[core]
+	editor = vim
+	autocrlf = true
+
+[diff]
+	tool = vimdiff
+
+# [difftool "sourcetree"]
+# 	cmd = '' \"$LOCAL\" \"$REMOTE\"
+#
+# [mergetool "sourcetree"]
+# 	cmd = "'' "
+# 	trustExitCode = true
